@@ -21,6 +21,12 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
+gem "cucumber-rails", ">= 1.3.0", :group => :test, :require => false
+gem "figaro"
+gem "bootstrap-sass"
+gem 'simple_form'
+gem 'devise'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
